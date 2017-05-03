@@ -1,0 +1,21 @@
+auto-reload yes
+bookmark-cmd "bookmarknews.sh"
+browser "reattach-to-user-namespace open -g %u"
+confirm-exit yes
+keep-articles-days 3
+notify-screen yes
+refresh-on-startup yes
+reload-time 120
+reload-threads 6
+save-path "~/Desktop"
+show-read-feeds no
+
+unbind-key  R
+bind-key    ^R reload-all
+
+color info default default reverse
+color listfocus default default underline
+color listfocus_unread white default underline
+color listnormal default default dim
+color listnormal_unread white default
+
